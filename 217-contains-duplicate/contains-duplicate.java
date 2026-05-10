@@ -10,3 +10,9 @@ class Solution {
     }
 }
 
+/* Approach
+First Sort the Array beause it is easy to check whether two element is equal or not .
+Then Compare elements one by one.
+We Only have to return a true or false.*/
+
+
