@@ -10,7 +10,6 @@ class Solution {
         if(windowsum/k >=threshold ){
                 c++;
         }
-        //maxsum=windowsum;
         for(int i=k;i<arr.length;i++){
             windowsum-=arr[i-k];
             windowsum+=arr[i];
