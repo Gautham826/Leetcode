@@ -7,14 +7,14 @@ class Solution {
         for(int i=0;i<k;i++){
             windowsum+=arr[i];
         }
-        if(windowsum >=threshold * k){
+        if(windowsum/k >=threshold ){
                 c++;
         }
         //maxsum=windowsum;
         for(int i=k;i<arr.length;i++){
             windowsum-=arr[i-k];
             windowsum+=arr[i];
-            if(windowsum >=threshold * k){
+            if(windowsum/k >=threshold){
                 c++;
             }
         }
