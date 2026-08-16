@@ -13,10 +13,8 @@ class Solution {
                 }
                 left++;
             }
-            if(count <= k){
                 int len=right-left+1;
                 maxlength=Math.max(maxlength,len);
-            }
         }
         return maxlength;
     }
